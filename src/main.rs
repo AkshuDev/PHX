@@ -21,6 +21,7 @@ fn main() {
         Ok(config) => {
             println!("Config loaded: {:?}", config);
             println!("Debug Mode: {:?}", config.debug);
+            println!("Cache Dir: {:?}", config.cache_dir);
         }
         Err(e) => {
             eprintln!("Failed to load config: {}\n\tContinuing Anyways...", e);

@@ -1,6 +1,4 @@
 use std::env;
-use std::path::Path;
-use std::process::Command;
 
 fn main() {
     // Get the target architecture and OS
