@@ -1,7 +1,7 @@
 [workspace]
 members = [
-	"src/cli",
+	#"src/cli",
 	"src/core",
-	"src/registry",
-	"platform"
+	#"src/registry",
+	#"platform"
 ]
