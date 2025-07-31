@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f4f8;
+  background-color: #292929;
   text-align: center;
 }
 
@@ -13,6 +13,7 @@
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  background-color: #4F4E4E;
 }
 
 .landing-logo {
@@ -23,13 +24,13 @@
 .landing-title {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #333;
+  color: #FFFFFF;
 }
 
 .landing-desc {
   font-size: 1.1rem;
-  color: #666;
-  margin-bottom: 20px;
+  color: #D6D6D6;
+  margin-bottom: 30px;
 }
 
 .get-started-btn {
