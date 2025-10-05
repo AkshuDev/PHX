@@ -10,7 +10,7 @@ pub fn read_config(config_path: &str) -> Result<Config, String> {
     let path = Path::new(config_path);
 
     // Open the config file
-    let mut file = File::open(path).map_err(|e| format!("Error openenign file: {}", e))?;
+    let mut file = File::open(path).map_err(|e| format!("Error opening file: {}", e))?;
 
     // Read the file contents into a buffer
     let mut config_contents = String::new();
